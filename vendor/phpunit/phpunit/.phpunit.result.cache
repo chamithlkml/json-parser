@@ -1,0 +1,1 @@
+{"version":1,"defects":[],"times":{"ConfigurationTest::testPathDoesNotExist":0.012,"ConfigurationTest::testInvalidJsonContent":0.001,"ConfigurationTest::testDirectKey":0.003,"ConfigurationTest::testIndividualKey":0,"ConfigurationTest::testSectionKey":0,"ConfigurationTest::testMergeConfigurations":0.001}}
