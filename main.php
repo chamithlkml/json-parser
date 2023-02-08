@@ -9,6 +9,7 @@ require_once dirname(__FILE__) . DIRECTORY_SEPARATOR . 'lib' . DIRECTORY_SEPARAT
 try{
 	$configuration = new Configuration();
 	$configuration->load("/Users/chamith/projects/php/divido/json-parser/fixtures/config.json");
+	print_r($configuration->get('database.host'));
 
 }catch(Exception $e){
 	echo "Error occured in running Configuration app: " . $e->getMessage() . "\n";
